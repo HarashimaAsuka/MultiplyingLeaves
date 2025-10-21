@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1876501213752171018}
   - component: {fileID: 2784653250112823958}
+  - component: {fileID: 8950824849123503641}
+  - component: {fileID: 2044131997531076232}
   m_Layer: 0
   m_Name: leaf
   m_TagString: Untagged
@@ -87,3 +89,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8950824849123503641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5494422364240535835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b678b04978b6a47b39f6aaf31c668a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2044131997531076232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5494422364240535835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60a1fa6b6143b8439377dbf9b179540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetName: GameObject
+  smoothTime: 0.3
